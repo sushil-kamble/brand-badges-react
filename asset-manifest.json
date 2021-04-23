@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/brand-badges/static/css/main.55119a9a.chunk.css",
+    "main.js": "/brand-badges/static/js/main.c4282402.chunk.js",
+    "main.js.map": "/brand-badges/static/js/main.c4282402.chunk.js.map",
+    "runtime-main.js": "/brand-badges/static/js/runtime-main.9419bf88.js",
+    "runtime-main.js.map": "/brand-badges/static/js/runtime-main.9419bf88.js.map",
+    "static/js/2.95775776.chunk.js": "/brand-badges/static/js/2.95775776.chunk.js",
+    "static/js/2.95775776.chunk.js.map": "/brand-badges/static/js/2.95775776.chunk.js.map",
+    "index.html": "/brand-badges/index.html",
+    "static/css/main.55119a9a.chunk.css.map": "/brand-badges/static/css/main.55119a9a.chunk.css.map",
+    "static/js/2.95775776.chunk.js.LICENSE.txt": "/brand-badges/static/js/2.95775776.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9419bf88.js",
+    "static/js/2.95775776.chunk.js",
+    "static/css/main.55119a9a.chunk.css",
+    "static/js/main.c4282402.chunk.js"
+  ]
+}
