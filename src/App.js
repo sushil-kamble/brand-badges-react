@@ -91,7 +91,7 @@ function App() {
           </form>
         </Box>
         <Divider style={{ margin: "10px 0px 10px 0px" }} />
-        <h4>Click on the tile to copy the markdown/html link of the icon</h4>
+        <h4>Click on the tile to copy the markdown/html src tag of the icon</h4>
         <h5>{filter.length} search results</h5>
         {filter.length > 0 ? (
           <Grid
@@ -101,12 +101,7 @@ function App() {
           >
             {filter.slice(0, limit).map((tile, i) => (
               <Grid item xs={6} sm={3} md={2} key={i}>
-                <Icons
-                  title={tile.title}
-                  color={tile.color}
-                  link={tile.link}
-                  type={badgeType}
-                />
+                <Icons title={tile.title} color={tile.color} type={badgeType} />
               </Grid>
             ))}
           </Grid>

@@ -3,7 +3,7 @@ import { Paper, Snackbar } from "@material-ui/core";
 
 import { useState } from "react";
 
-function Icons({ title, color, link, type }) {
+function Icons({ title, color, type }) {
   const [open, setOpen] = useState(false);
   const computedtype = type !== "social" ? "white" : "black";
   const computedLink = title.replace(/ /g, "-").toLowerCase();
@@ -33,7 +33,7 @@ function Icons({ title, color, link, type }) {
         >
           {title.length < 20 ? title : `${title.substring(0, 18)}...`} - {color}
         </p>
-        <img alt={link} src={imgSrc} />
+        <img alt={title} src={imgSrc} />
       </Paper>
       <Snackbar
         anchorOrigin={{
