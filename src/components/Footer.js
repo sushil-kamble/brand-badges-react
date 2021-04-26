@@ -5,10 +5,11 @@ function Footer() {
     <div style={{ backgroundColor: "#e9e9e9", marginTop: "20px" }}>
       <Container>
         <div style={{ paddingTop: "10px" }}>
-          <h4>
+          <h3>
             Hey there, I am Sushil & this is the small project created by me to
-            make your github profiles & website <em>Awesome</em>
-          </h4>
+            make your github profiles & website look <em>Awesome</em>.
+          </h3>
+          <Divider style={{ margin: "5px 0 5px 0" }} />
         </div>
         <div style={{ marginTop: "10px" }}>
           <h3>Format</h3>
@@ -48,7 +49,7 @@ function Footer() {
           </ul>
         </div>
         <div style={{ marginTop: "10px" }}>
-          <h3>Limitations</h3>
+          <h3>Limitations & their solutions</h3>
           <Divider style={{ margin: "5px 0 5px 0" }} />
           <ul>
             <li>

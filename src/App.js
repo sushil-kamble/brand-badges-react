@@ -1,5 +1,5 @@
 import "./App.css";
-import icon from "./data.json";
+import data from "./data.json";
 import Icons from "./components/Icons";
 import { Skeleton } from "@material-ui/lab";
 import { useEffect, useState } from "react";
@@ -14,21 +14,14 @@ import {
 import Footer from "./components/Footer";
 
 function App() {
-  const [data, setData] = useState([]);
   const [filter, setFilter] = useState([]);
   const [input, setInput] = useState("");
   const [limit, setLimit] = useState(100);
   const options = ["plastic", "flat", "flat-square", "for-the-badge", "social"];
-  const [badgeType, setBadgeType] = useState("flat-square");
+  const [badgeType, setBadgeType] = useState("plastic");
 
   useEffect(() => {
-    const loadData = async () => {
-      return JSON.parse(JSON.stringify(icon));
-    };
-    loadData().then(iconData => {
-      setData(iconData);
-      setFilter(iconData);
-    });
+    setFilter(data);
   }, []);
   const filteredData = input => {
     setInput(input);
