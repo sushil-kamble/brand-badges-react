@@ -8,7 +8,7 @@
 
 ### Screenshot
 
-![alt text](https://drive.google.com/uc?export=view&id=1_A7OViFIRrFMOCTZB6bE635ufajulHql "Home Page")
+![alt text](https://firebasestorage.googleapis.com/v0/b/sushil-kamble.appspot.com/o/projects%2Fbrand_badges.jpg?alt=media "Home Page")
 
 ### Features
 
