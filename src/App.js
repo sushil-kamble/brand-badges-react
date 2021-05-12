@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 function App() {
   const [filter, setFilter] = useState([]);
   const [input, setInput] = useState("");
-  const [limit, setLimit] = useState(100);
+  const [limit, setLimit] = useState(102);
   const options = ["plastic", "flat", "flat-square", "for-the-badge", "social"];
   const [badgeType, setBadgeType] = useState("plastic");
 
@@ -35,10 +35,10 @@ function App() {
     }
   };
   const increaseLimit = () => {
-    setLimit(limit + 100);
+    setLimit(limit + 102);
   };
   const changedType = type => {
-    setLimit(100);
+    setLimit(102);
     setBadgeType(type);
   };
   return (
@@ -46,8 +46,8 @@ function App() {
       <Container maxWidth="lg">
         <Box
           display={{ xs: "block", md: "flex" }}
+          className="navbar"
           justifyContent={"space-between"}
-          style={{ marginTop: "20px", marginBottom: "10px" }}
         >
           <div style={{ marginBottom: "10px" }}>
             <h2>Brand Badges</h2>
