@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/brand-badges/static/css/main.55119a9a.chunk.css",
-    "main.js": "/brand-badges/static/js/main.b0a0352d.chunk.js",
-    "main.js.map": "/brand-badges/static/js/main.b0a0352d.chunk.js.map",
-    "runtime-main.js": "/brand-badges/static/js/runtime-main.21c3d240.js",
-    "runtime-main.js.map": "/brand-badges/static/js/runtime-main.21c3d240.js.map",
-    "static/js/2.8341f7d2.chunk.js": "/brand-badges/static/js/2.8341f7d2.chunk.js",
-    "static/js/2.8341f7d2.chunk.js.map": "/brand-badges/static/js/2.8341f7d2.chunk.js.map",
-    "index.html": "/brand-badges/index.html",
-    "static/css/main.55119a9a.chunk.css.map": "/brand-badges/static/css/main.55119a9a.chunk.css.map",
-    "static/js/2.8341f7d2.chunk.js.LICENSE.txt": "/brand-badges/static/js/2.8341f7d2.chunk.js.LICENSE.txt"
+    "main.css": "/brand-badges-react/static/css/main.b1bbe0ab.chunk.css",
+    "main.js": "/brand-badges-react/static/js/main.5aa72445.chunk.js",
+    "main.js.map": "/brand-badges-react/static/js/main.5aa72445.chunk.js.map",
+    "runtime-main.js": "/brand-badges-react/static/js/runtime-main.92545c49.js",
+    "runtime-main.js.map": "/brand-badges-react/static/js/runtime-main.92545c49.js.map",
+    "static/js/2.8341f7d2.chunk.js": "/brand-badges-react/static/js/2.8341f7d2.chunk.js",
+    "static/js/2.8341f7d2.chunk.js.map": "/brand-badges-react/static/js/2.8341f7d2.chunk.js.map",
+    "index.html": "/brand-badges-react/index.html",
+    "static/css/main.b1bbe0ab.chunk.css.map": "/brand-badges-react/static/css/main.b1bbe0ab.chunk.css.map",
+    "static/js/2.8341f7d2.chunk.js.LICENSE.txt": "/brand-badges-react/static/js/2.8341f7d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.21c3d240.js",
+    "static/js/runtime-main.92545c49.js",
     "static/js/2.8341f7d2.chunk.js",
-    "static/css/main.55119a9a.chunk.css",
-    "static/js/main.b0a0352d.chunk.js"
+    "static/css/main.b1bbe0ab.chunk.css",
+    "static/js/main.5aa72445.chunk.js"
   ]
 }
